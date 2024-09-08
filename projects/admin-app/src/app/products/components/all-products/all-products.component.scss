@@ -1,0 +1,96 @@
+
+.cartBox {
+  padding: 20px;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartBox .btn {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+tbody tr {
+  text-align: center;
+}
+
+tbody td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+tbody img {
+  max-width: 50px;
+  border-radius: 5px;
+}
+
+tbody td button {
+  margin-top: 5px;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-body .form-control {
+  margin-bottom: 15px;
+}
+
+input[type="file"] {
+  padding: 5px;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.row .col-md-4,
+.row .col-md-8 {
+  margin-bottom: 15px;
+}
+
+.d-flex.justify-content-end {
+  margin-top: 20px;
+}
+
+button.close span {
+  font-size: 24px;
+  font-weight: bold;
+}
+

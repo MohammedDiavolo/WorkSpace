@@ -1,0 +1,4 @@
+<div class="product-page">
+    <app-select [data]="dataCategory" [title]="'Categories'" (selection)="filterCategory($event)"></app-select>
+    <app-product [data]="data" (itemProduct)="addToCart($event)"></app-product>
+</div>
